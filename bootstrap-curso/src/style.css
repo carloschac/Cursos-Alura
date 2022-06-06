@@ -16,3 +16,12 @@
 .special-color {
   color: darkred;
 }
+
+.special-color-button {
+  background-color: darkred;
+  color: white;
+}
+
+.special-color-border {
+  border-color: darkred;
+}
