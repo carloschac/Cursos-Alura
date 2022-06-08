@@ -1,6 +1,6 @@
 # Cursos-Alura
 
-\***\*\*\*\*\*\*\***\*\*\*\***\*\*\*\*\*\*\*** JavaScript Back-End **\*\***\*\*\*\***\*\***\*\*\***\*\***\*\*\*\***\*\***
+\***\*\*\*\*\*\*\***\*\*\*\*\* JavaScript Back-End**\*\***\*\*\*\***\*\***\*\*\*\*\*\*
 ========================================= Tipos ===============================================
 Aula 02 - Declarando variáveis
 //var tem um escopo global, então funciona em qualquer parte do código, o que pode gerar possíveis problemas em relação à lógica da aplicação.
@@ -17,3 +17,7 @@ idado ao utilizá-lo.
 //O JavaScript converte automaticamente entre tipos de valores, como números para texto e para booleanos, porém não é interessante deixá-lo fazer isso automaticamente, pois podem ocorrer erros.
 
 //Temos como forçar uma mudança de tipo utilizando os métodos Number() e String(), onde Number() converte as variáveis para números ou NaN caso tenha algum erro na conversão, e String() converte as variáveis para texto.
+
+======================== Aula 03============================
+//tipagem dinâmica:
+//Quando criamos uma váriavel em JS não precisamos dizer o tipo da varíavel, ele identifica automâticamente, ela pode alterar de String para Number, ou de Number para Boolean
