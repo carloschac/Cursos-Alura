@@ -19,11 +19,11 @@ const nomes = [
   'Renata'
 ]
 
-console.log('Tamanho da array', nomes.lenght)
+console.log('Tamanho da array', nomes.length)
 
-const sala1 = nomes.slice(0, nomes.lenght / 2)
+const sala1 = nomes.slice(0, nomes.length / 2)
 
-const sala2 = nomes.slice(nomes.lenght / 2)
+const sala2 = nomes.slice(nomes.length / 2)
 
 console.log(`Alunos da sala1: ${sala1}`)
 
