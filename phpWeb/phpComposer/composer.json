@@ -1,0 +1,21 @@
+{
+    "name": "chac/buscador-cursos",
+    "description": "Projeto que busca cursos no site da alura",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Chac\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Henrique",
+            "email": "carloss.chac@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "symfony/dom-crawler": "^6.2"
+    }
+}
