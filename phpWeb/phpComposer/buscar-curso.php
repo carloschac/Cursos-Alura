@@ -1,6 +1,21 @@
 <?php
+require 'vendor/autoload.php';
+
 use GuzzleHttp\Client;
+use Symfony\Component\DomCrawler\Crawler;
 
 $client = new Client();
 
-$resposta = $client->request(method: 'GET', uri: 'http://alura.com.br/cursos-online.com.br/php');
+$resposta = $client->request('GET', 'http://alura.com.br/cursos-online.com.br/php');
+
+$html = $resposta->getBody();
+
+$crawler = new Crawler();
+$crawler->addHtmlContent($html);
+
+$cursos = $crawler->filter('span.card-curso__nome');
+
+
+foreach ($cursos as $curso) {
+    echo $curso->textContent;
+}
