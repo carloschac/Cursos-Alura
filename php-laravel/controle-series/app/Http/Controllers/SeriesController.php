@@ -27,4 +27,11 @@ class SeriesController extends Controller
         $serie->save();
         return redirect('/series');
     }
+
+    public function delete($id) {
+        $serie = Serie::find($id);
+        $serie->delete();
+        return redirect('/series');
+    }
+    
 }
