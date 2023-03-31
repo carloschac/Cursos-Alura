@@ -1,8 +1,8 @@
 export class Negociacao {
-    constructor(data, quantidade, valor) {
-        this._data = data;
-        this._quantidade = quantidade;
-        this._valor = valor;
+    constructor(__data, __quantidade, __valor) {
+        this.__data = __data;
+        this.__quantidade = __quantidade;
+        this.__valor = __valor;
     }
     get data() {
         return this._data;
